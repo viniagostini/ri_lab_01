@@ -61,9 +61,9 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
+SPIDER_MIDDLEWARES = {
 #    'ri_lab_01.middlewares.RiLab01SpiderMiddleware': 543,
-#}
+}
 
 DOWNLOADER_MIDDLEWARES = {
    # USER_AGENTS
@@ -84,9 +84,9 @@ ROTATING_PROXY_LIST = [
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
+DOWNLOADER_MIDDLEWARES = {
 #    'ri_lab_01.middlewares.RiLab01DownloaderMiddleware': 543,
-#}
+}
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
